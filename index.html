@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <script defer src="./js/script.js"></script>
+    <title>Pokedex</title>
+
+</head>
+
+<body>
+    <div class="container align-self-center ">
+        <div class="row ">
+            <div class="col-sm-5 side-left sombra_container">
+                <div id='bigCircle'>
+                    <div id='blueCircle'>
+                        <div id="whiteCircle"></div>
+                    </div>
+                </div>
+                <div id="redDot"></div>
+                <div id="yellowDot"></div>
+                <div id="greenDot"></div>
+
+                <div class="row box-pok">
+ 
+                </div>
+
+            </div> 
+            <div class="col-sm col-eixo">
+                
+            </div>
+            <div class="col-sm-5 side-right">
+
+                <div class="row">
+                    <div class="col col-sm-10">
+                        <div class="box-right">
+                            <div id="screen">
+                                <div id="redButton1" class="redButton">
+                                </div>
+                                <div id="redButton2" class="redButton">
+                                </div>
+                                <div id="display">
+                                    <img src="#" alt="pokemon" class="pokemon__image">
+                                    <h1 class="pokemon__data">
+                                        <span class="pokemon__number"></span> -
+                                        <span class="pokemon__name"></span>
+                                      </h1>
+                                      <form class="form">
+                                        <input
+                                          type="search"
+                                          class="input__search"
+                                          placeholder="Nombre o Número"
+                                          required
+                                        />
+                                      </form>
+                                  
+                                      <div class="buttons">
+                                        <button class="button btn-prev">Atras &lt;</button>
+                                        <button class="button btn-next">Siguiente &gt;</button>
+                                      </div>
+                                </div>
+                                <div id="redCircle" class="redButton"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row">
+                        <div class="col-sm btn-modal">
+                        </div>
+                        <div class="col col-sm-4 ">
+                            <div id="yellowTriangleR"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col col-sm-9 cover " id="cover">
+    
+                            <div id="logo"></div>
+    
+                            <div id="yellowTriangle">
+                                <div id="innerTriangle"></div>
+                            </div>
+    
+                        </div>                     
+                    </div> 
+            </div> 
+        </div>
+    </div>
+
+
+</body>
+
+</html>
